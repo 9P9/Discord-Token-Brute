@@ -26,6 +26,12 @@ Using Proxies in this format in the proxies.txt!
 206.189.158.28:7905
 ```
 
+Program will utilise a userID provided by user
+``` 314374502840532993 ``` 
+This will be then processed into base64
+``` MzE0Mzc0NTAyODQwNTMyOTkz ```
+The Remaining parts of Token are Generated Via Regex!
+
 Socks4/http/socks5 Working! 
 
 ### Made for Educational Purposes!
