@@ -20,7 +20,7 @@ codegen = function () {
 	let buff = Buffer.from(data);
 	let base64data = buff.toString('base64');
 	tokenstart = base64data;
-	var end = new RandExp(/^[A-Z]{1}([a-zA-Z0-9]){5}\.([a-zA-Z0-9_-]{27})$/).gen();
+	var end = new RandExp(/^[A-Z]{1}([a-zA-Z0-9]){5}\.([a-zA-Z0-9_-]{38})$/).gen();
 	token = tokenstart + "." + end;
 	return token
 }
